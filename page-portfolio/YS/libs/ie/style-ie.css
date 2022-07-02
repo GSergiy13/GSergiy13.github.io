@@ -1,0 +1,6 @@
+* {
+	behavior: url('../libs/htc/PIE.htc');
+}
+* {
+	behavior: url('../libs/htc/backgroundsize.min.htc');
+}
