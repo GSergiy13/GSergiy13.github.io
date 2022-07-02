@@ -79,8 +79,8 @@ body {
 .resume__fixset {
     position: fixed;
     right: 20px;
-    bottom: 20px;
-    background: #09af72;
+    top: 20px;
+    background: #af094e;
     padding: 5px 10px;
 }
 
@@ -93,3 +93,26 @@ body {
 .item__hidde-satus.item__hidde-satus--work {
     background: #09af72;
 }
+
+@media only screen and (max-width : 1440px) {
+    .container {
+        padding: 20px;
+    }
+    .portfolio__item {
+        width: 400px;
+        height: 350px;
+    }
+    .portfolio__item-img {
+        height: 350px;
+    }
+
+    .item__hidden-title {
+        margin: 10px 0 10px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .item__hidden-descr {
+        font-size: 16px;
+    }
+}
+
