@@ -1,0 +1,525 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1680px) {
+	h2.tops {
+		font-size: 55px;
+	}
+	.head-txt h1 {
+		font-size: 90px;
+	}
+	.olga-img img {
+		width: 100%;
+		margin-left: -62px;
+	}
+}
+
+@media only screen and (max-width : 1600px) {
+	.container {
+		width: 85%;
+	}
+	.head-txt h1 {
+		font-size: 100px;
+	}
+	img.img-trening {
+		width: 121%;
+		margin-top: 10px;
+	}
+	.head-txt h1 {
+		font-family: Oswald;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 86px;
+		line-height: 63%;
+		margin-top: 10px;
+		margin-bottom: 16px;
+	}
+	span.bot-h1 {
+		font-size: 29px;
+		line-height: 53px;
+	}
+}
+@media only screen and (max-width : 1500px) {
+	.head-txt h1 {
+		font-size: 84px;
+		margin-bottom: 20px;
+	}
+	header {
+		padding: 40px 0 40px 0;
+	}
+	h2.tops {
+		font-size: 50px;
+
+	}
+	span.bot-h1 {
+		font-size: 32px;
+		line-height: 53px;
+	}
+	.date-p {
+		margin-top: 20px;
+	}
+	li.position.t4 {
+		margin-left: -64px;
+	}
+	li.position.t3 {
+		margin-left: -87px;
+	}
+	.head-txt p:after {
+		top: 5px;
+	}
+	.head-txt p {
+		font-size: 16px;
+
+	}
+}
+@media only screen and (max-width : 1370px) {
+	.head-txt h1 {
+		font-size: 85px;
+	}
+	h2.tops {
+		font-size: 40px;
+	}
+	.head-txt h1 {
+		font-size: 80px;
+	}
+	span.bot-h1 {
+		font-size: 30px;
+		line-height: 53px;
+	}
+	.txt-rihgt p {
+		font-size: 30px;
+	}
+	.txt-rihgt h2 {
+		font-size: 50px;
+	}
+	section.trening .yulia-info-ul h2 {
+		margin-left: -119px;
+	}
+	li.position.t3 {
+		margin-left: -121px;
+	}
+	li.position.t4 {
+		margin-left: -143px;
+	}
+	li.position.t5 {
+		margin-left: -194px;
+	}
+	li.position.t6 {
+		margin-left: -247px;
+	}
+	li.position.t1 {
+		margin-left: -141px;
+	}
+	section.trening .olga-info-ul h2 {
+		margin-left: -144px;
+		color: #1D5B7A;
+	}
+	.olga-img img {
+		width: 88%;
+	}
+}
+@media only screen and (max-width : 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	section.sec-2 h2 {
+		text-align: center;
+		line-height: 100%;
+	}
+	img.position-girl {
+		position: absolute;
+		bottom: -4px;
+		right: 4%;
+		width: 32%;
+	}
+	img.img-trening {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.yulia-img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	section.trening .yulia-info-ul h2 {
+		margin-left: 0;
+	}
+	li.position {
+		margin-left: 0 !important;
+	}
+	.olga-img img {
+		width: 100%;
+	}
+	section.trening .olga-info-ul h2 {
+		margin-left: 0;
+	}
+	.none {
+		display: block;
+	}
+	.blok {
+		display: none;
+	}
+	p.yalow-bg {
+		font-size: 20px;
+	}
+	.t-text p {
+		font-size: 18px;
+	}
+	p.info-ylo {
+		font-size: 14px;
+	}
+	img.img-trening {
+		width: 105%;
+		margin-top: 10px;
+	}
+	.yulia-img img {
+		width: 65%;
+		margin-left: 0;
+		position: absolute;
+		right: 0;
+	}
+	.yulia-info-ul {
+		position: relative;
+		padding-top: 181px;
+	}
+	.yulia-info-ul ul li, .olga-info-ul ul li {
+		font-size: 12px;
+	}
+	.yulia-info-ul ul, .olga-info-ul ul  {
+		padding-left: 0;
+	}
+	.top {
+		margin-top: 20px;
+	}
+	.olga-img img {
+		width: 60%;
+		position: absolute;
+		right: 0;
+	}
+	.olga-info-ul {
+		padding-top: 175px;
+	}
+	section.lesson h2 {
+		color: #E8D933;
+		margin-left: 48px;
+	}
+	.item-lesonss h3 {
+		font-size: 20px;
+	}
+	section.how-by button.btn.bg-b.mt {
+		width: 65%;
+		margin: -55px auto 0 auto;
+	}
+	.item-lesonss ul li {
+		font-size: 14px;
+	}
+	.item-lesonss ul li {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.item-lesonss ul li {
+		background: url(../img/ul-yelow.png) no-repeat 0 -6px;
+	}
+	.soce-contacts {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.item-tg-1 img {
+		padding-right: 0;
+		width: 50%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px) {
+	header {
+		background-image: url(../img/mobail/h-mobil.jpg);
+		padding: 20px 0;
+	}
+	section.how-by button.btn.bg-b.mt {
+		width: 65%;
+		margin: -66px auto 0 auto;
+	}
+	img.logo {
+		width: 90px;
+		margin-top: 20px;
+	}
+	.container{ width: 99%; }
+	h2.tops {
+		font-size: 31px;
+		line-height: 100%;
+		margin-bottom: 28px;
+	}
+	.head-txt h1 {
+		font-size: 52px;
+		margin-bottom: 30px;
+	}
+	span.bot-h1 {
+		font-size: 20px;
+		line-height: 100%;
+		width: 53%;
+		display: block;
+		margin-top: 28px;
+	}
+	.head-txt p {
+		font-size: 14px;
+		width: 93%;
+	}
+	button.btn {
+		width: 100%;
+		padding: 10px 33px;
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 37px;
+	}
+	.item-tg-1 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		height: 225px;
+	}
+	.item-tg-1 p {
+		font-size: 14px;
+	}
+	section.sec-2 p.s-2-p {
+		font-size: 20px;
+	}
+	.item-us-kurs p {
+		font-size: 12px;
+	}
+	.item-us-kurs {
+		text-align: center;
+		margin: 5px 0px 10px 0px;
+		height: 208px;
+	}
+	.item-us-kurs img {
+		width: 60%;
+	}
+	.txt-girl-left p {
+		font-size: 20px;
+		z-index: 22;
+		position: relative;
+	}
+	section {
+		padding: 20px 0;
+	}
+	img.position-girl {
+		position: absolute;
+		bottom: -11px;
+		right: 0%;
+		width: 52%;
+		z-index: 2;
+		opacity: 0.6;
+	}
+	.info-two h3 {
+		font-size: 20px;
+	}
+	section.sec-2 button.btn.bg-b{
+		z-index: 22;
+		position: relative;
+	}
+	img.two-k {
+		width: 100%;
+	}
+	.info-two {
+		padding: 10px;
+	}
+	.info-two p {
+		font-size: 16px;
+	}
+	h3.sex-span {
+		font-size: 34px;
+	}
+	.txt-rihgt h2 {
+		font-size: 37px;
+	}
+	.txt-rihgt p {
+		font-size: 20px;
+	}
+	.txt-rihgt ul li {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	section.price-tovar p.p-t {
+		font-size: 20px;
+	}
+	.tovar {
+		display: block;
+	}
+	.tovar .item-tovar {
+		width: 100%;
+	}
+	.item-tovar.left-border {
+		border-left: none;
+	}
+	.border-hr {
+		width: 50%;
+		display: block;
+		margin: 10px auto;
+		background: #1D5B7A;
+		height: 4px;
+	}
+	.item-tovar h3 {
+		font-size: 20px;
+		margin: 15px 0 0px 0;
+	}
+	.item-tovar p {
+		font-size: 14px;
+	}
+	.p-t {
+		font-size: 26px;
+
+	}
+	.item-price {
+		padding: 10px 11px;
+		height: 496px;
+		position: relative;
+	}
+	.item-price button.btn.bg-b {
+		width: 75%;
+		margin-bottom: -110px;
+		margin-top: 0;
+	}
+	section.price-tovar {
+		padding-bottom: 70px;
+	}
+	img.decor.decor-m.none {
+		margin-top: -59px;
+	}
+	img.decor.decor-t.none {
+		margin-bottom: -60px;
+	}
+	span.span-top {
+		padding-left: 10px;
+		margin-right: 10px;
+	}
+	.item-price {
+		height: 588px;
+	}
+	.date-p {
+		margin-top: 21px;
+		margin-bottom: 5px;
+		font-size: 17.6369px;
+	}
+	.date-f {
+		font-size: 16px;
+	}
+	.form-pup {
+		width: 100%;
+
+	}
+	form h2 {
+		font-size: 20px;
+	}
+	.form-pup form input {
+		width: 100%;
+		padding: 15px;
+		margin: 10px 0;
+		border: 1px solid #ccc;
+	}
+	form button.btn {
+		margin: 5px auto;
+		padding: 15px 19px;
+		font-size: 20px;
+	}
+	button.mfp-close {
+		right: -1%;
+	}
+}
+
+@media only screen and (max-width : 460px) {
+	.item-price {
+		padding: 10px 11px;
+		height: 566px;
+		position: relative;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+	.head-txt h1 {
+		font-size: 43px;
+	}
+	span.bot-h1 {
+		width: 65%;
+	}
+	.item-price {
+		padding: 10px 11px;
+		height: 532px;
+		position: relative;
+	}
+	.head-txt p {
+		font-size: 13px;
+		width: 93%;
+	}
+	button.btn {
+		width: 100%;
+		padding: 10px 21px;
+		font-size: 20px;
+	}
+	h2.decor-left {
+		position: relative;
+		margin-left: 34px;
+	}
+	section.how-by button.btn.bg-b.mt {
+		width: 65%;
+		margin: -55px auto 0 auto;
+		padding: 10px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
