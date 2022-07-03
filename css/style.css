@@ -100,7 +100,7 @@ body {
     }
     .portfolio__item {
         width: 400px;
-        height: 350px;
+        height: 300px;
     }
     .portfolio__item-img {
         height: 350px;
@@ -113,6 +113,17 @@ body {
     }
     .item__hidden-descr {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .portfolio__item {
+        width: 100%;
+        height: 220px;
+        margin: 10px 0;
+    }
+    .portfolio__item-img {
+        height: 220px;
     }
 }
 
